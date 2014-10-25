@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/lickylick/FCOverlayViewController.git', :tag => 'v1.0.6' }
   s.source_files  = 'FCOverlayViewControllerClass/*'
   s.requires_arc = true
+  s.prefix_header_contents = '#import <UIKit/UIKit.h>'
 
 end
